@@ -18,9 +18,25 @@ height:50px;
 	z-index:1000;
 }
 
+<<<<<<< HEAD
 .bartitles{
 	color:white;
 }
+=======
+.navbar{
+	height: 40px;
+	background-color: blue;
+	margin-bottom: 70px;
+	
+	
+
+	/*height: 40px;
+	width:1100px;
+	background-color: blue;
+	margin-bottom: 100px;
+	margin-left:150px;
+	position:fixed; fixed bar*/
+>>>>>>> bd92d95b1d53f6dd41b10a4e473e19b29b023a25
 
 #toplogo{
 	position:fixed;
@@ -30,8 +46,29 @@ height:50px;
 	z-index:1001;
 }
 
+<<<<<<< HEAD
 
 
+=======
+.siteinfo{
+padding-bottom:30px;
+text-align: center;
+color:white;
+
+
+}
+
+h1{
+
+	font-size:50px;
+	text-shadow: 2px 2px 0px black;
+}
+
+h3{
+	text-shadow: 2px 2px 0px black;
+}
+
+>>>>>>> bd92d95b1d53f6dd41b10a4e473e19b29b023a25
 .link{
 
 	color:white;
