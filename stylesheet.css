@@ -293,6 +293,18 @@ h3{
 	 color:rgb(191,191,191);
 }
 
+.threesixb{
+	background:url('images/360b.jpg');
+	 background-size:cover;
+	 background-position:center center;
+	 background-repeat:no-repeat;
+	 background-attachment:fixed;
+	 margin:0;
+	 height:2000px;
+	 font-family:'Arbutus Slab',serif;
+	 color:rgb(191,191,191);
+}
+
 .maindiv{
 		width:1000px;
 		height:1800px;
