@@ -137,6 +137,15 @@ p{
  	padding-top: 10px;
 }
 
+.sidetext{
+    margin:0px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    float:left;
+    position: relative;
+    left:auto;
+}
+
 .subbar{
 
 	width:100%;
