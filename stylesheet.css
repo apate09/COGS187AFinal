@@ -448,7 +448,7 @@ p{
 
 	margin:0px 0px 0px 250px;
 	/*position:relative;*/
-	width:600px;
+	width:700px;
 	height:300px;
 	padding-top:50px;
 }
@@ -462,12 +462,15 @@ p{
 
 #bigpg{
 
-	float:right;
+	
+	float:left;
 	width:250px;
+	padding-left:100px;
 }
 
 #alink{
-	padding-left:80px;
+	padding-left:100px;
+	font-family: Verdana;
 }
 
 .more{
