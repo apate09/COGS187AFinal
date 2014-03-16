@@ -501,5 +501,10 @@ text-align: center;
 	clear:both;
 }
 
+.footertext{
+	color:white;
+	text-align: center;
+	padding-top:80px;
+}
 
 
