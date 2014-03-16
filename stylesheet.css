@@ -419,9 +419,16 @@ p{
 
 }*/
 
+.sbtextpc{
+	height:50px;
+	width:100%;
+	padding-left: 70px;
+	padding-bottom: -100px;
+}
+
 #smallpg{
 	display:inline;
-	padding-right:50px;
+	padding-right:160px;
 }
 
 .smallboxpic{
