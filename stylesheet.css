@@ -395,6 +395,12 @@ p{
         float:inherit;
         
     }
+.p.carousel{
+    font-size:25px;
+    font-family:Verdana, sans-serif;
+    text-align: justify;
+    margin-left:10px;
+}
 
 		/*Sidebar Galore*/
 		.sidebar{position: fixed;

@@ -23,7 +23,7 @@
 				displayThumbnailBackground: true,
 				thumbnailWidth: '20px',
 				thumbnailHeight: '20px',
-				thumbnailFontSize: '.7em',
+				thumbnailFontSize: '20px',
 				easeLeft: 'linear',
 				easeRight: 'linear',
 				imagePath: '../COGS187AFinal/carousel/js/infinitecarousel/images/',
@@ -83,9 +83,9 @@
 			var containerPaddingLeft = parseInt($(obj).css('padding-left')); // Normally we'd do both left and right but only left matters here
 			for(i=1;i<=o.inView;i++)
 			{
-				$(obj).append('<div id="textholder'+randID+'_'+i+'" class="textholder" style="position:absolute;width:'+imgWidth+'px;bottom:0px;margin-bottom:'+-(imgHeight*o.textholderHeight+containerBorder)+'px;"><span></span></div>');
+				$(obj).append('<div id="textholder'+randID+'_'+i+'" class="textholder" style="position:absolute;width:'+imgWidth+'px;bottom:0px;margin-bottom:'+-(imgHeight*o.textholderHeight+containerBorder)+'px;"><span style="font-size:21px;font-family:Verdana; margin-left:15px; text-color:black;"></span></div>');
 				$('#textholder'+randID+'_'+i).css({'left':(i-1)*(imgWidth+parseInt(o.padding)*2),'margin-left':parseInt(o.padding)+containerPaddingLeft,'margin-right':o.padding});
-				$('#textholder'+randID+'_'+i).height(imgHeight*o.textholderHeight).css({'backgroundColor':'#FFF','opacity':'0.85'});
+				$('#textholder'+randID+'_'+i).height(imgHeight*o.textholderHeight).css({'backgroundColor':'#FFF','opacity':'1'});
 				html = '<div class="minmax" id="minmax'+randID+'_'+i+'" style="width:8px;height:8px;position:absolute;top:1px;right:10px;cursor:pointer;background:url('+o.imagePath+'caption.gif) no-repeat 0 -8px"></div>';
 				html += '<div class="close" id="close'+randID+'_'+i+'" style="width:8px;height:8px;position:absolute;top:1px;right:1px;cursor:pointer;background:url('+o.imagePath+'caption.gif) no-repeat 0 0"></div>';
 				$('#textholder'+randID+'_'+i).append(html);
@@ -176,7 +176,7 @@
 				for(i=0;i<=numImages-1;i++)
 				{
 					thumb = $('img:eq('+(i+1)+')', obj).attr('src');
-					$('#thumbs'+randID).append('<div class="thumb" id="thumb'+randID+'_'+(i+1)+'" style="cursor:pointer;background-image:url('+thumb+');display:inline;float:left;width:'+o.thumbnailWidth+';height:'+o.thumbnailHeight+';line-height:'+o.thumbnailHeight+';padding:0;overflow:hidden;text-align:center;border:2px solid #ccc;margin-right:4px;font-size:'+o.thumbnailFontSize+';font-family:Verdana;font-size:15px;color:#000;text-shadow:0 0 3px #fff">'+(i+1)+'</div>');
+					$('#thumbs'+randID).append('<div class="thumb" id="thumb'+randID+'_'+(i+1)+'" style="cursor:pointer;background-image:url('+thumb+');display:inline;float:left;width:'+o.thumbnailWidth+';height:'+o.thumbnailHeight+';line-height:'+o.thumbnailHeight+';padding:0;overflow:hidden;text-align:center;border:2px solid #ccc;margin-right:4px;font-size:'+o.thumbnailFontSize+';font-family:Verdana;color:#000;text-shadow:0 0 3px #00">'+(i+1)+'</div>');
 					if(i<=o.inView) $('#thumb'+randID+'_'+i).css({'border-color':'#ff0000'});
 					unviewable.push(i+1);
 				}
