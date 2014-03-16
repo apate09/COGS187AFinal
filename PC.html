@@ -74,50 +74,25 @@
       <!--Wii U will have a dropdown menu that contains 3ds-->
       </div>
 
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<!--include pictures of pc games onto carousel-->
+			 <!--Carousel-->
+<div id="carousel">
+<ul>
+<li>
+<img width="1000" height="300" src="images/bastion1.jpg"/>
+<p>This is where text will go</p>
+</li>
 
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item">
-          <img src="images/Transformers-Universe.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Transformers Universe</h1>
-              <p>News, speculations, and two new characters arise from the latest trailers about the upcoming Transformers Universe.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Read More</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item active">
-          <img src="images/NVidiaYAS.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Nvidia GeForce GTX 750 Ti </h1>
-              <p>Nvidia's latest graphics card is a first in many ways.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="images/Thief-2014.jpg" alt="Third slide" >
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Thief</h1>
-              <p>Player sets record for fastest speedrun on Thief; no cheats, no kills.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div>
+<li>
+<img width="1000" height="300" src="images/bannersaga.jpg"/>
+<p>This is where text will go</p>
+</li>
+
+<li>
+<img width="1000" height="300" src="images/titanfallcarousel.jpg"/>
+<p>This is where text will go</p>
+</li>
+</ul>
+</div> 
 			<div class="smallbox"><a href=""><img class="smallboxpic" src ="images/bannersaga.jpg"></a><h2 style="font-size:20px">The Banner Saga Review</h2></div>
 			<div class="smallbox"><a href=""><img class="smallboxpic" src = "images/walkingdead2-1.jpg"></a><h2 style="font-size:20px">The Walking Dead Review</h2></div>
 			<div class="smallbox"><a href=""><img class="smallboxpic" src = "images/ikaruga.jpg"></a><h2 style="font-size:20px">Ikaruga Review</h2></div>
@@ -137,10 +112,21 @@
 
 <!--Javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script> 
-    <script type="text/javascript" src="../COGS187AFINAL/script.js"></script>  
-    <script type="text/javascript" src= "../COGS187AFINAL/jquery-scrolltofixed.js"></script>  
+    <script type="text/javascript" src="../COGS187AFinal/script.js"></script> 
+    <script type="text/javascript" src="../COGS187AFinal/carousel/js/infinitecarousel/jquery.infinitecarousel2.js"></script>
+
+<script type="text/javascript">
+
+$(function(){
+  
+$('#carousel').infiniteCarousel();
+
+});
+
+</script>
+    <script type="text/javascript" src= "../COGS187AFinal/jquery-scrolltofixed.js"></script>  
     <script type="text/javascript">
         $('#floatingbar').scrollToFixed();
     </script>
-	</body>
-</html>	
+  </body>
+</html> 
