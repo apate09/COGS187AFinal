@@ -13,7 +13,7 @@ height:50px;
 	height:40px;
 	width:100%;
 	position:absolute;
-	margin-left:0px;
+	margin-left:50px;
 	top:40px;
 	bottom:0px;
 	z-index:1000;
@@ -33,6 +33,14 @@ height:50px;
     position:relative;
     margin-right:85px;
 }
+
+/*#floatingbar li{
+    height:inherit;
+    float:left;
+    position:relative;
+    margin-right:30px;
+	margin-left:50px;
+}*/
 #floatingbar a{
     display:block;
     padding:10px;
@@ -80,12 +88,20 @@ height:50px;
 	color:white;
 }
 
-#toplogo{
-	position:fixed;
-	top:0px;
-	left:50%;
+/*.logo{
+	height:60px;
+	width:80px;
+}*/
+
+.logo{
+	width:90px;
+	height:70px;
+	position: fixed;
+	top:26px;
+	left:3%;
 	margin-left:-42px; /*011 offset*/
 	z-index:1001;
+	padding-bottom:0px;
 }
 
 /*HEAD*/
@@ -96,6 +112,7 @@ height:50px;
 padding-bottom:30px;
 text-align: center;
 color:white;
+display:inline;
 
 
 }
@@ -157,7 +174,7 @@ p{
 	color:white;
  	text-decoration:none;
  	font-family:Verdana;
- 	margin: 0px 0px 0px 33px;
+ 	margin: 0px 0px 0px 47px;
  	float:left;
  	position:relative;
  	padding-top: 10px;
